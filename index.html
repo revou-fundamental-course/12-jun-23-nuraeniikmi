@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Temperature Conversion (°C)/(°F)</h1>
+    </header>
+    
+    <section class="card">
+        <section class="mp">
+            <div>
+                <p class="paragraf">Masukan Suhu derajat Celcius (°C) pada kotak dibawah ini, lalu tekan tombol convert untuk melihat hasil (°F)</p>
+            </div>
+            
+            <form onsubmit="convertToCelsius(event)">
+                <div class="mt">
+                    <p><h4>Celsius (°C)</h4></p>
+                    <input id="inputCelcius" class="box" />
+                    
+                    <div class="button-end">
+                        <h5>"Celsius (°C) ke Fahrenheit (°F)"</h5>
+                        <button class="button-submit" type="submit">Convert</button>
+                    </div>
+                </div>
+            </form>
+            
+            <form onsubmit="reverseConversion(event)">
+                <div class="mt">
+                    <p><h4>Fahrenheit (°F)</h4></p>
+                    <input id="inputFahrenheit" class="box" />
+                    
+                    <div class="button-end">
+                        <h5>"Fahrenheit (°F) ke Celsius (°C)"</h5>
+                        <button class="button-submit" type="submit">Reverse</button>
+                    </form>
+                        <form onclick="reset(event)">
+                            <div class="mt">
+                    <div class="button-end">
+                                    <button class="button-reset" type="submit">Reset</button>
+                                </div>    
+                    </div>
+                </div>
+            </form>
+                    
+                    <p id="changeTitle" class="left"></p>
+                    <input id="inputConversion" class="box-end" disabled />
+                </div>
+            </form>
+            
+            <div>
+                <p class="paragraf">Suhu S dalam derajat Celcius (°C) sama dengan Suhu S dalam 5/9 kali (derajat Fahrenheit (°F) di kurang 32)</p>
+                <p class="paragraf"><span class="rumus">°C = 5/9 x (°F - 32)</span></p>
+                
+                <p class="paragraf">ATAU</p>
+
+                <p class="paragraf">Suhu S dalam derajat Fahrenheit (°F) sama dengan Suhu S dalam (9/5 kali derajat Celcius (°C)) tambah 32</p>
+                <p class="paragraf"><span class="rumus">°F = (9/5 x °C) + 32</span></p>
+            </div>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

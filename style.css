@@ -1,0 +1,117 @@
+body {
+    background-color:   rgb(255, 235, 205);
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(193,154,107);
+    /* transition: 0.3s; */
+    border: 1px solid transparent;
+    margin: 40px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    font-family: rockwell;
+    font-size: small;
+    margin: 20px 20px 0;
+    text-align: center;
+    text-decoration: solid;
+  }
+  
+  .red-color {
+    color: #00fff2;
+  }
+  
+  .mp {
+    margin: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .paragraf {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  
+  .mt {
+    margin-top: 10px;
+  }
+  
+  .button-end {
+    display: inline;
+    justify-content: left;
+  }
+  
+  button {
+    color: rgb(14, 13, 13);
+    height: 25px;
+    width: 100px;
+    margin-left: 4px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(222, 184, 135)
+    ;
+  }
+  
+  h5 {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    padding-right: 2px;
+  }
+  
+  .button-submit:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(165, 165, 165);
+  }
+  
+  .button-reset:hover {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgb(158, 158, 158);
+  }
+  
+  .box {
+    border: 1px solid;
+    width: 40%;
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .box-end {
+    border: 1px solid;
+    width: 40%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: large;
+  }
+  
+  .rumus {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: large;
+    margin-left: 12px;
+  }
+  
+  footer {
+    margin: 40px 50px;
+    display: grid;
+    justify-content: left;
+    font-family: "Courier New", Courier, monospace;
+    font-size: small;
+    text-decoration: underline;
+  }
